@@ -1,0 +1,24 @@
+# Protein Explorer Roadmap
+
+- [x] Scaffold a small responsive web app.
+- [x] Create a curated seed list of 10-20 real, interesting UniProt accessions.
+- [x] Build a reusable data layer for UniProt search and accession fetches.
+- [x] Add localStorage caching for fetched protein data.
+- [x] Design the homepage with search, Protein of the Day, and Random Protein.
+- [x] Build reusable protein card components with source badges and quick details.
+- [x] Implement individual protein pages with real biological fields and fallbacks.
+- [x] Add PDB and AlphaFold structure links when source data supports them.
+- [x] Add beginner-friendly UI copy without inventing biological facts.
+- [x] Implement favorites with localStorage.
+- [x] Add loading, empty, and error states.
+- [x] Add responsive navigation with a mobile menu.
+- [x] Add light and dark mode.
+- [x] Test desktop, tablet, and mobile breakpoints.
+- [x] Document setup and data sources in the README.
+- [x] Expand the curated starter list from 18 to 36 real UniProt accessions.
+- [x] Add source-derived protein category tags.
+- [x] Add source-backed Did you know? fact boxes.
+- [x] Add copy UniProt ID and share actions on protein pages.
+- [x] Add recently viewed proteins with localStorage.
+- [x] Add a simple organism filter.
+- [x] Add UniProt, PDB, AlphaFold, and InterPro source badges.
