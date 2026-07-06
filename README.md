@@ -49,6 +49,23 @@ npm run build
 npm run preview
 ```
 
+## GitHub Pages Deployment
+
+This project is configured for GitHub Pages at:
+
+`https://Yifitt.github.io/ProteinWebsite/`
+
+Deployment is handled by `.github/workflows/deploy-pages.yml`. On every push to `main`, GitHub Actions installs dependencies, builds the Vite app, uploads `dist/`, and deploys it to Pages.
+
+To enable it on GitHub:
+
+1. Open the repository on GitHub.
+2. Go to **Settings** > **Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. Push to `main` and wait for the **Deploy to GitHub Pages** workflow to finish.
+
+The Vite `base` path is set to `/ProteinWebsite/` in `vite.config.js`, which is required for this repository URL.
+
 ## Notes
 
 Fetched API responses are cached in `localStorage` for 24 hours to keep browsing snappy while still making the data layer easy to refresh and extend.
